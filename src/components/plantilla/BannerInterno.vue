@@ -31,7 +31,7 @@ export default {
 
 <style lang="sass">
 .banner-interno__fondo
-  background-color: #DCE8FA !important
+  background-color: #FAF2E6 !important
 .banner-interno
   position: relative
 

@@ -1,85 +1,36 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'3. El papel del investigador en las ciencias sociales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    #t_3_1.titulo-segundo
-      h2 3.1 Carrusel
-    .row.justify-content-center.mb-5
-      .col-11.col-md-4.col-xl-5.pe-xl-8
-        figure.mb-4.mb-md-0
-          img(src='@/assets/componentes/test-img-carousel.png', alt='Texto que describa la imagen')
-      .col-11.col-md-8.col-xl-7
-        SlyderF(columnas="col-12 col-lg-6")
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 54 de 1924
-                p.text-center Permitió el matrimonio civil entre católicos que declaran  haberse separado de la Iglesia.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-amarillo.p-4
+          p.mb-4 A continuación, en el PDF El papel del investigador, se presenta que la investigación cualitativa y cuantitativa son enfoques fundamentales en la generación de conocimiento, cada uno con características y roles específicos que los hacen valiosos según el propósito del estudio. Lo invitamos a consultar el documento para ampliar esta información.
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.w-fit(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2.w-fit <strong>Anexo.</strong> El papel del investigador
+      .col-5.d-none.d-md-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
 
-    #t_3_2.titulo-segundo
-      h2 3.2 Tablas
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="http://www.scielo.org.co/scielo.php?pid=S0121-32612009000100010&script=sci_arttext") Abello Llanos, R. (2009). La investigación en ciencias sociales: sugerencias prácticas sobre el proceso. Investigación y desarrollo, 17(1), 208-229
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="http://scielo.senescyt.gob.ec/scielo.php?script=sci_arttext&pid=S2550-65872024000200077&lang=es") Barahona, G., León, V., & Barzola, Y. (2024). La intervención social en personas con situaciones vulnerables. Revista de Ciencias Humanísticas y Sociales (ReHuSo), 9(2), 77-91. 
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-94362023000200111&lang=es") Lione, S. V. (2023). Género, trabajo científico y reproducción social. Una aproximación conceptual para su abordaje en y desde la periferia. La ventana. Revista de estudios de género, 7(58), 111-145.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 
-    .row
-      .col-xl-9
-        .tabla-a.mb-5
-          table
-            caption Leyenda de la tabla
-            thead
-              tr
-                th Ventajas
-                th Desafios
-            tbody
-              tr
-                td <strong>Flexibilidad de tiempo y lugar:</strong>Los estudiantes pueden acceder a los cursos desde cualquier lugar y en el momento que mejor se ajuste a su agenda.
-                td <strong>Autogestión   del tiempo:</strong>Requiere que los estudiantes sean disciplinados y tengan la capacidad de organizar su tiempo de manera efectiva.
-              tr
-                td <strong>Acceso global: </strong>Cualquier persona con conexión a internet puede acceder a una amplia gama de programas y cursos, sin importar su ubicación geográfica.
-                td <strong>Autogestión del tiempo: </strong>Falta de interacción cara a cara: La ausencia de contacto físico puede disminuir la sensación de comunidad y la interacción espontánea con compañeros e instructores.
-              tr
-                td <strong>Aprendizaje a ritmo propio: </strong>Los estudiantes pueden avanzar a su propio ritmo, revisando el material tantas veces como sea necesario.
-                td <strong>Requiere mayor motivación: </strong>La autonomía que ofrece el aprendizaje en línea también exige que los estudiantes mantengan su motivación sin la estructura tradicional de clases presenciales.
-              tr
-                td <strong>Variedad de recursos digitales: </strong>Los estudiantes tienen acceso a videos, documentos, foros, evaluaciones automatizadas y otros recursos interactivos que enriquecen la experiencia de aprendizaje.
-                td <strong></strong>Distracciones en el entorno personal: Al estudiar desde casa o en otros entornos no tradicionales, los estudiantes pueden enfrentarse a más distracciones que en un aula presencial.
-              tr
-                td <strong>Menor costo: </strong>El aprendizaje en línea suele ser más asequible, ya que elimina los costos de transporte, alojamiento y materiales impresos.
-                td <strong>Dependencia de la tecnología: </strong>Problemas técnicos, como una conexión a internet inestable o falta de acceso a dispositivos adecuados, pueden interrumpir el proceso de aprendizaje.
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 </template>
 
 <script>

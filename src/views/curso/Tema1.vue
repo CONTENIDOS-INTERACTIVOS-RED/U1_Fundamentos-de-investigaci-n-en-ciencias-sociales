@@ -2,161 +2,55 @@
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-    #t_1_1.titulo-segundo
-      div.d-flex
-        span.me-3 1.1  
-        h2 Título de segundo
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        p Desde los inicios de la humanidad, las reglas han sido un elemento fundamental para el desarrollo de las sociedades. El Derecho, en este contexto, se presenta como una herramienta indispensable para el buen funcionamiento de la convivencia. En esta primera unidad, se profundizará en el concepto de Derecho, su propósito y origen, así como en el proceso de creación de normas que regulan nuestras actividades diarias, las relaciones entre individuos y el Estado, y las normas que operan en el ámbito global.
-      .col-md-6.col-lg-5
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure.mt-4.mt-lg-0
-          img(src='@/assets/componentes/banner-img-1.png', alt='Texto que describa la imagen')
-    #t_1_2.titulo-segundo.color-secundario
-      h2 1.2  Acordeón
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        AcordionA(tipo="b")
-          .row(titulo="Titulo item 1")
-            .col
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
+    p.mb-4 Para iniciar con el desarrollo de este primer tema, abordaremos una situación: imaginemos a un investigador que está interesado en comprender las causas y efectos del uso excesivo de redes sociales en adolescentes de una institución educativa, ubicada en cierta ciudad de Colombia. A través de la investigación, quiere responder preguntas como:
 
-          div(titulo="Titulo item 2")
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .col-md-6.col-lg-5.col-xl-4.mx-xl-auto
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure
-          img(src='@/assets/componentes/banner-img-2.png', alt='Texto que describa la imagen')
-    #t_1_3.titulo-segundo.color-secundario.pb-5
-      h2 1.3  Slider
-    .row.position-relative.mb-5
-      img.bg-img-1(src='../../assets/componentes/background-test.svg', alt='Texto que describa la imagen')
-      SlyderA(tipo="b").bg-white
-        .row.p-4.p-md-5
-          .col-md-6.col-lg-7.mb-4.mb-md-0
-            p.text-bold Coercibilidad
-            p El derecho puede imponerse por la fuerza si es necesario. Cuando una persona incumple una norma jurídica, puede ser sancionada mediante multas, penas de prisión o la confiscación de bienes. Esta coercibilidad distingue al derecho de otros sistemas normativos que no cuentan con mecanismos de imposición obligatoria.
-        
-          .col-md-6.col-lg-5
-            figure
-              img(src='@/assets/componentes/banner-img-3.png', alt='Texto que describa la imagen')
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-    #t_1_4.titulo-segundo.color-secundario.pt-5
-      h2 1.4  Pestañas
     .row.mb-5
-      TabsC.color-primario
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Jerarquía normativa")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Sentido amplio de la norma")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-    #t_1_5.titulo-segundo.color-secundario.pt-5
-      h2 1.5  Infografia interactiva
-      
-    .row.mb-5.justify-content-center.img-infografica.p-md-5
-      .col-12.col-md-9
-        ImagenInfografica.color-secundario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/componentes/test-img-infogr.svg', alt='Texto que describa la imagen')
+      .col-12.col-xl-7.d-flex.flex-column
+        .d-flex.align-items-start.bg-rojo.p-4.mb-4(data-aos="fade-right")
+          .d-flex.flex-column
+            div.d-flex
+              img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+              p.mb-0  ¿Por qué los adolescentes pasan tantas horas en las redes sociales?
+            div.d-flex
+              img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+              p.mb-0  ¿Cómo afecta esto a su bienestar emocional y rendimiento escolar?
+            div.d-flex
+              img.mt-1.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+              p.mb-0  ¿Qué factores sociales influyen en el uso excesivo?
+        p Evidentemente, para responder a estas preguntas, el investigador deberá realizar un estudio en donde tendrá que tomar decisiones acerca de cómo hacerlo; sin embargo, desde el inicio podemos decir que este es un típico caso de estudio de las ciencias sociales. Este ejemplo muestra cómo la investigación en ciencias sociales, puede identificar problemas actuales y ayudar a proponer soluciones para mejorar el bienestar de la sociedad.
+      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')  
 
-          .tarjeta.color-acento-botones.p-3(x="9%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="91%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="91%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="9%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    
-    #t_1_6.titulo-segundo
-      div.d-flex
-        span.me-3 1.6  
-        h2 Linea de tiempo D
-
-    LineaTiempoD.color-secundario.mb-5
-      p(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="3" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-    
-    #t_1_7.titulo-segundo
-      div.d-flex
-        span.me-3 1.7
-        h2 Tarjeta de audio
-    
-      TarjetaAudio.color-primario.bg-white.mb-5(
-        texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
-        tiempo
-        :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
+    .row.mb-5
+      .col-5.d-none.d-md-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-7(data-aos="fade-left")
+        .bg-amarillo.p-4
+          p.mb-4 La investigación en ciencias sociales es un proceso que permite comprender el comportamiento humano, las interacciones sociales y los fenómenos que impactan a nuestra sociedad. A continuación, el PDF <strong>La investigación en ciencias sociales</strong> , explora las características esenciales de esta disciplina, su importancia en la resolución de problemas sociales y su capacidad para informar decisiones basadas en evidencia. A través de ejemplos prácticos, se destaca cómo la investigación social contribuye al desarrollo de comunidades más equitativas y sostenibles.
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> La investigación en ciencias sociales
 
     .bg-full-width.border-top-9-azul
-      .px-4.p-md-5
+      .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40513") Baena Paz, G. M. E. (2017). Metodología de la investigación: (3 ed.). Grupo Editorial Patria.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40363 ") Guerrero Dávila, G. (2015). Metodología de la investigación: ( ed.). Grupo Editorial Patria.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://revistascientificas.us.es/index.php/Ambitos/article/view/11736") Anguera, M. T., Blanco-Villaseñor, A., Losada, J. L., & Sánchez-Algarra, P. (2020). Integración de elementos cualitativos y cuantitativos en metodología observacional. Ámbitos. Revista Internacional de Comunicación, (49), 49-70. 
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
+
 </template>
 
 <script>

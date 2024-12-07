@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Introducción a la investigación en ciencias sociales',
   },
   menuPrincipal: {
     menu: [
@@ -31,83 +31,35 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo:
+          'Definición y características de la investigación en ciencias sociales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Título de segundo nivel',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acordeón',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Tipos de investigación: cualitativa, cuantitativa y mixta',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Investigación cualitativa',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Investigación cuantitativa ',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo: 'Investigación mixta',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,22 +67,9 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'El papel del investigador en las ciencias sociales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -170,109 +109,145 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Aravena, M., Kimelman, E., Micheli, B., Torrealba, R., & Zúñiga, J. (2006). Investigación educativa I.',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Ballesteros, L. M. G., Restrepo, C. G., Rodríguez, V. A., de Castro, S. F., & Ponce, M. V. (2024). Investigación mixta:¿ qué es y qué no?. Revista Colombiana de Psiquiatría.',
+      link: 'https://doi.org/10.1016/j.rcp.2024.04.002',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Bonilla-Castro, E. (2005). Más allá del dilema de los métodos: la investigación en ciencias sociales. Editorial Norma.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Creswell, J. W. (2014). Research design: Qualitative, quantitative, and mixed methods approaches (4th ed.). SAGE Publications.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Denzin, N. K., & Lincoln, Y. S. (2011). The SAGE Handbook of Qualitative Research. SAGE Publications.',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Flick, U. (2014). An introduction to qualitative research (5th ed.). SAGE Publications.',
+      link: '',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Hernández-Sampieri, R., & Mendoza, C. P. (2018). Metodología de la investigación: Las rutas cuantitativa, cualitativa y mixta (6.ª ed.). McGraw Hill.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Johnson, R. B., Onwuegbuzie, A. J., & Turner, L. A. (2007). Toward a definition of mixed methods research. Journal of Mixed Methods Research, 1(2), 112–133.',
+      link: 'https://doi.org/10.1177/1558689806298224',
+    },
+    {
+      referencia:
+        'Patton, M. Q. (2015). Qualitative Research & Evaluation Methods. SAGE Publications.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Análisis',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Este es el proceso de revisar y entender los datos que se han recogido. Los investigadores buscan patrones o tendencias en los datos',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Análisis de Contenido',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Método cualitativo de interpretación sistemática de datos textuales, identificando patrones o temas relevantes',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Análisis Estadístico',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Técnica cuantitativa que examina y organiza datos numéricos para validar hipótesis o descubrir patrones',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Codificación',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Proceso de categorizar datos cualitativos para identificar patrones y conceptos en el análisis de información recopilada',
     },
     {
-      termino: 'Moda',
+      termino: 'Datos',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Los datos son la información que se recopila durante la investigación. Pueden ser números, palabras o imágenes que los investigadores analizan para sacar conclusiones',
     },
     {
-      termino: 'Diseña',
+      termino: 'Etnografía',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Método cualitativo que estudia culturas y comunidades en su entorno natural a través de observación participante y entrevistas',
     },
     {
-      termino: 'DIseño',
+      termino: 'Fiabilidad',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Consistencia de los resultados en estudios cuantitativos; mide la estabilidad y repetibilidad de los resultados obtenidos',
     },
     {
-      termino: 'Tipología',
+      termino: 'Hipótesis',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Una hipótesis es una suposición que el investigador hace antes de comenzar su estudio. Es algo que se quiere probar o comprobar mediante la investigación',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Método Científico',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Proceso sistemático de observación, experimentación y análisis para generar conocimiento válido y replicable',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Métodos de investigación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Esto se refiere a las formas en que los investigadores obtienen información. Los métodos pueden ser cualitativos (como entrevistas) o cuantitativos (como encuestas con números)',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Muestra',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Grupo seleccionado que representa la población en estudio. Puede ser probabilística o no probabilística, según el método',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Muestreo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso de selección de individuos o grupos que representan la población en estudio, esencial para generalizar resultados',
+    },
+    {
+      termino: 'Observación Participante',
+      significado:
+        'Método cualitativo donde el investigador se integra en el entorno de estudio para observar y comprender comportamientos',
+    },
+    {
+      termino: 'Paradigma',
+      significado:
+        'Conjunto de creencias y métodos que orientan la investigación, como el positivismo en cuantitativa o interpretativo en cualitativa',
+    },
+    {
+      termino: 'Teoría Fundamentada',
+      significado:
+        'Método cualitativo para desarrollar teorías a partir de los datos recolectados y analizados durante el proceso de investigación',
+    },
+    {
+      termino: 'Teoría Social',
+      significado:
+        'Marco conceptual que busca explicar y entender fenómenos sociales, como el funcionalismo o el estructuralismo',
+    },
+    {
+      termino: 'Triangulación',
+      significado:
+        'Uso de múltiples métodos o fuentes para asegurar la validez y confiabilidad en la investigación cualitativa y mixta',
+    },
+    {
+      termino: 'Validez',
+      significado:
+        'Grado en que los resultados reflejan la realidad estudiada; importante para asegurar la precisión en ambas metodologías',
+    },
+    {
+      termino: 'Variables',
+      significado:
+        'Factores medibles en investigación cuantitativa que pueden variar y afectar los resultados del estudio',
     },
   ],
   complementario: [

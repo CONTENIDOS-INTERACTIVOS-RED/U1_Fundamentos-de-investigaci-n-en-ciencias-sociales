@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La Unidad I: Introducción a la investigación en ciencias sociales establece los fundamentos teóricos esenciales para comprender el papel de la investigación en el análisis y resolución de problemas sociales. A través de tres temas principales, se exploran las características fundamentales de la investigación en ciencias sociales, los diferentes tipos de metodologías (cualitativa, cuantitativa y mixta) y el rol crítico y ético que debe asumir el investigador. Esta unidad proporciona un enfoque integral que permite a los estudiantes adquirir las bases necesarias para identificar problemáticas, elegir enfoques metodológicos adecuados y aplicar estrategias reflexivas en la generación de conocimiento. Este conocimiento inicial es clave para avanzar en el desarrollo de competencias investigativas sólidas y aplicables en diversos contextos sociales.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>
