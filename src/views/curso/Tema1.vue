@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'1. DEFINICIÓN Y CARACTERÍSTICAS DE LA INVESTIGACIÓN EN CIENCIAS SOCIALES'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
     
     p.mb-4 Para iniciar con el desarrollo de este primer tema, abordaremos una situación: imaginemos a un investigador que está interesado en comprender las causas y efectos del uso excesivo de redes sociales en adolescentes de una institución educativa, ubicada en cierta ciudad de Colombia. A través de la investigación, quiere responder preguntas como:
