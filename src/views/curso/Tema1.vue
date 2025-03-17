@@ -27,8 +27,8 @@
         img(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
       .col-12.col-xl-7(data-aos="fade-left")
         .bg-amarillo.p-4
-          p.mb-4 La investigación en ciencias sociales es un proceso que permite comprender el comportamiento humano, las interacciones sociales y los fenómenos que impactan a nuestra sociedad. A continuación, el PDF <strong>La investigación en ciencias sociales</strong> , explora las características esenciales de esta disciplina, su importancia en la resolución de problemas sociales y su capacidad para informar decisiones basadas en evidencia. A través de ejemplos prácticos, se destaca cómo la investigación social contribuye al desarrollo de comunidades más equitativas y sostenibles.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          p.mb-4 La investigación en ciencias sociales es un proceso que permite comprender el comportamiento humano, las interacciones sociales y los fenómenos que impactan a nuestra sociedad. A continuación, el PDF <strong>La investigación en ciencias sociales</strong>, explora las características esenciales de esta disciplina, su importancia en la resolución de problemas sociales y su capacidad para informar decisiones basadas en evidencia. A través de ejemplos prácticos, se destaca cómo la investigación social contribuye al desarrollo de comunidades más equitativas y sostenibles.
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_La investigación en ciencias sociales.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> La investigación en ciencias sociales
 

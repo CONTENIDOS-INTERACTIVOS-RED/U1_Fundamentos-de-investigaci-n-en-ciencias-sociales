@@ -19,7 +19,6 @@
           img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-8.svg', alt='Texto que describa la imagen')
           .d-flex.flex-column
             p.pe-xl-3.mb-0(data-aos="fade-up") Las condiciones en las cuales se desarrolla la investigación, conducen a la elección de alguno de alguna tipología, las cuales son abordadas netamente desde lo metodológico y su relación con las diferentes áreas de conocimiento. 
-        span Por lo general, en las teorías tradicionales, se acostumbra describir dos enfoques metodológicos: el cuantitativo y el cualitativo; sin embargo, ha ido emergiendo una opción metodológica que combina estos dos, el mixto, que ofrece ventajas y oportunidades para abordar problemas complejos y multifacéticos. (Aravena, Kimelman, Micheli, Torrealba, & Zúñiga, 2006). 
         
     p.mb-4 Por lo general, en las teorías tradicionales, se acostumbra describir dos enfoques metodológicos: el cuantitativo y el cualitativo; sin embargo, ha ido emergiendo una opción metodológica que combina estos dos, el mixto, que ofrece ventajas y oportunidades para abordar problemas complejos y multifacéticos. (Aravena, Kimelman, Micheli, Torrealba, & Zúñiga, 2006). 
     .row.mb-4
@@ -70,7 +69,7 @@
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style="width: 80px")
           p.text-bold.mb-4.text-center Investigación básica
-          p.px-1.text-small.mb-0.d-flex.text-center Se refiere a investigaciones de corte teórico, buscan profundizar en temas desde su sustento epistemológico y no pueden ejecutarse casos prácticos de ningún modo
+          p.px-1.text-small.mb-0.d-flex.text-center Se refiere a investigaciones de corte teórico, buscan profundizar en temas desde su sustento epistemológico y no pueden ejecutarse casos prácticos de ningún modo.
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-14.svg', style="width: 80px")
@@ -86,8 +85,8 @@
       .col-12.col-xl-7(data-aos="fade-right")
         p.mb-4 En la investigación cualitativa, los diseños de investigación se centran en la comprensión profunda de fenómenos complejos y subjetivos, explorando significados, experiencias y percepciones. A diferencia de la investigación cuantitativa, no se busca medir ni cuantificar variables, sino describirlas, interpretarlas y comprenderlas, desde una perspectiva más rica y contextual. 
         .bg-amarillo.p-4
-          p.mb-4 En la investigación cualitativa, existen diversos diseños que permiten explorar fenómenos sociales desde perspectivas únicas y profundas. A continuación, el PDF Otros diseños , aborda diseños como el fenomenológico, etnográfico, narrativo, y estudio de caso, entre otros, explicando su propósito, características y aplicaciones prácticas. A través de ejemplos concretos, se muestra cómo estos enfoques ayudan a entender experiencias humanas, contextos culturales y dinámicas sociales complejas, aportando valiosas herramientas para la generación de conocimiento en ciencias sociales.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.w-fit(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          p.mb-4 En la investigación cualitativa, existen diversos diseños que permiten explorar fenómenos sociales desde perspectivas únicas y profundas. A continuación, el PDF Otros diseños, aborda diseños como el fenomenológico, etnográfico, narrativo, y estudio de caso, entre otros, explicando su propósito, características y aplicaciones prácticas. A través de ejemplos concretos, se muestra cómo estos enfoques ayudan a entender experiencias humanas, contextos culturales y dinámicas sociales complejas, aportando valiosas herramientas para la generación de conocimiento en ciencias sociales.
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.w-fit(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Otros diseños.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Otros diseños
       .col-5.d-none.d-md-block(data-aos="fade-left")
@@ -173,7 +172,7 @@
           .div(titulo="Análisis estadístico")
             p El análisis estadístico es el núcleo de la investigación cuantitativa. A través de técnicas como la prueba t de Student o Test-t, el análisis de regresión y el análisis de varianza (ANOVA), los investigadores pueden identificar relaciones entre variables, probar hipótesis y medir la significancia estadística de los resultados.
           .div(titulo="Replicabilidad")
-            p.mb-4 Replicabilidad	Un aspecto clave de la investigación cuantitativa, es su capacidad de ser replicada. Esto significa que otros investigadores, utilizando los mismos métodos y muestras similares, deberían obtener resultados comparables. La replicabilidad es esencial para validar los hallazgos y fortalecer la credibilidad de los estudios.
+            p.mb-4 Un aspecto clave de la investigación cuantitativa, es su capacidad de ser replicada. Esto significa que otros investigadores, utilizando los mismos métodos y muestras similares, deberían obtener resultados comparables. La replicabilidad es esencial para validar los hallazgos y fortalecer la credibilidad de los estudios.
             p.mb-4 ●  Claridad: los números hacen que la información sea más clara. Es más fácil ver que 75 de 100 estudiantes prefieren un tipo de comida que solo escuchar una opinión.
             p.mb-4 ●  Comparaciones: los números permiten hacer comparaciones. Por ejemplo, se puede comparar el rendimiento de dos grupos diferentes en una prueba.
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
@@ -185,8 +184,8 @@
       .col-12.col-xl-7(data-aos="fade-left")
         h2  Tipos de diseño en la investigación cuantitativa
         .bg-amarillo.p-4
-          p.mb-4 Los diseños de investigación cuantitativa ofrecen un marco estructurado y riguroso para analizar datos numéricos, permitiendo explorar fenómenos sociales, relaciones entre variables y establecer causalidades. A continuación, el PDF Tipos de diseño en la investigación cuantitativa , aborda diversos diseños como los descriptivos, correlacionales, experimentales y longitudinales, explicando sus características, aplicaciones y variaciones. A través de ejemplos concretos, se profundiza en cómo estos enfoques ayudan a responder preguntas de investigación y a generar conocimiento basado en evidencia objetiva.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.w-fit(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          p.mb-4 Los diseños de investigación cuantitativa ofrecen un marco estructurado y riguroso para analizar datos numéricos, permitiendo explorar fenómenos sociales, relaciones entre variables y establecer causalidades. A continuación, el PDF Tipos de diseño en la investigación cuantitativa, aborda diversos diseños como los descriptivos, correlacionales, experimentales y longitudinales, explicando sus características, aplicaciones y variaciones. A través de ejemplos concretos, se profundiza en cómo estos enfoques ayudan a responder preguntas de investigación y a generar conocimiento basado en evidencia objetiva.
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.w-fit(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Tipos de diseño en la investigación cuantitativa.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Tipos de diseño en la investigación cuantitativa 
 
@@ -201,7 +200,7 @@
             SlyderF(columnas="col-12 .col-md-6 col-lg-4 py-4 px-3")
               div.custom-image-card.rounded-8px.py-4
                 img.mx-auto.mb-4(src='@/assets/curso/unidad/img-26.svg', style="width: 80px")
-                p.text-bold.mb-4.text-center Conocimiento físico
+                p.text-bold.mb-4.text-center Formulación del problema de investigación
                 p.px-1.text-small.mb-0.d-flex.text-center El primer paso es definir claramente el problema o la pregunta de investigación. Esto implica identificar qué se quiere estudiar y por qué es importante.
               div.custom-image-card.rounded-8px.py-4
                 img.mx-auto.mb-4(src='@/assets/curso/unidad/img-27.svg', style="width: 80px")
@@ -249,7 +248,7 @@
       .col-5.d-none.d-xl-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
       .col-12.col-xl-7(data-aos="fade-left")
-        p.mb-4 Para introducirnos a este tema, partiremos de una situación real, desde el Departamento Administrativo Nacional de Estadística – DANE; se está analizando a profundidad el fenómeno del desempleo en Colombia en la última década y para hacerlo, se analizan las diferentes tasas históricas de desempleo entre grupos variados de personas, durante dicho periodo, mientras que también se realizan entrevistas con personas desempleadas para explorar sus experiencias y percepciones de la discriminación en el mercado laboral. Esto puede considerarse, una investigación mixta.
+        p.mb-4 La investigación de enfoque mixto es una metodología que combina elementos de la investigación cualitativa y cuantitativa, con el fin de aprovechar las fortalezas de ambos enfoques y superar sus limitaciones. Este enfoque se basa en la idea que la integración de datos numéricos y narrativos, permite una comprensión más completa de los fenómenos sociales y científicos. En lugar de centrarse únicamente en estadísticas o en interpretaciones subjetivas, los investigadores de enfoque mixto, integran diversas fuentes de datos para obtener una visión más holística y profunda de la realidad que estudian.
         .bg-rojo.p-4
           span El enfoque mixto es especialmente útil cuando el problema de investigación es complejo y multifacético, y cuando un solo enfoque no es suficiente para capturar todas las dimensiones relevantes del fenómeno estudiado. Esta metodología permite a los investigadores validar y enriquecer sus hallazgos mediante la triangulación de datos provenientes de diferentes fuentes y métodos. (Ballesteros, et al., 2024)
 

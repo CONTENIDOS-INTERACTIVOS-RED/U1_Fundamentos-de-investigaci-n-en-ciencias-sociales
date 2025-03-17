@@ -157,97 +157,97 @@ export default {
     {
       termino: 'Análisis',
       significado:
-        'Este es el proceso de revisar y entender los datos que se han recogido. Los investigadores buscan patrones o tendencias en los datos',
+        'Este es el proceso de revisar y entender los datos que se han recogido. Los investigadores buscan patrones o tendencias en los datos.',
     },
     {
       termino: 'Análisis de Contenido',
       significado:
-        'Método cualitativo de interpretación sistemática de datos textuales, identificando patrones o temas relevantes',
+        'Método cualitativo de interpretación sistemática de datos textuales, identificando patrones o temas relevantes.',
     },
     {
       termino: 'Análisis Estadístico',
       significado:
-        'Técnica cuantitativa que examina y organiza datos numéricos para validar hipótesis o descubrir patrones',
+        'Técnica cuantitativa que examina y organiza datos numéricos para validar hipótesis o descubrir patrones.',
     },
     {
       termino: 'Codificación',
       significado:
-        'Proceso de categorizar datos cualitativos para identificar patrones y conceptos en el análisis de información recopilada',
+        'Proceso de categorizar datos cualitativos para identificar patrones y conceptos en el análisis de información recopilada.',
     },
     {
       termino: 'Datos',
       significado:
-        'Los datos son la información que se recopila durante la investigación. Pueden ser números, palabras o imágenes que los investigadores analizan para sacar conclusiones',
+        'Los datos son la información que se recopila durante la investigación. Pueden ser números, palabras o imágenes que los investigadores analizan para sacar conclusiones.',
     },
     {
       termino: 'Etnografía',
       significado:
-        'Método cualitativo que estudia culturas y comunidades en su entorno natural a través de observación participante y entrevistas',
+        'Método cualitativo que estudia culturas y comunidades en su entorno natural a través de observación participante y entrevistas.',
     },
     {
       termino: 'Fiabilidad',
       significado:
-        'Consistencia de los resultados en estudios cuantitativos; mide la estabilidad y repetibilidad de los resultados obtenidos',
+        'Consistencia de los resultados en estudios cuantitativos; mide la estabilidad y repetibilidad de los resultados obtenidos.',
     },
     {
       termino: 'Hipótesis',
       significado:
-        'Una hipótesis es una suposición que el investigador hace antes de comenzar su estudio. Es algo que se quiere probar o comprobar mediante la investigación',
+        'Una hipótesis es una suposición que el investigador hace antes de comenzar su estudio. Es algo que se quiere probar o comprobar mediante la investigación.',
     },
     {
       termino: 'Método Científico',
       significado:
-        'Proceso sistemático de observación, experimentación y análisis para generar conocimiento válido y replicable',
+        'Proceso sistemático de observación, experimentación y análisis para generar conocimiento válido y replicable.',
     },
     {
       termino: 'Métodos de investigación',
       significado:
-        'Esto se refiere a las formas en que los investigadores obtienen información. Los métodos pueden ser cualitativos (como entrevistas) o cuantitativos (como encuestas con números)',
+        'Esto se refiere a las formas en que los investigadores obtienen información. Los métodos pueden ser cualitativos (como entrevistas) o cuantitativos (como encuestas con números).',
     },
     {
       termino: 'Muestra',
       significado:
-        'Grupo seleccionado que representa la población en estudio. Puede ser probabilística o no probabilística, según el método',
+        'Grupo seleccionado que representa la población en estudio. Puede ser probabilística o no probabilística, según el método.',
     },
     {
       termino: 'Muestreo',
       significado:
-        'Proceso de selección de individuos o grupos que representan la población en estudio, esencial para generalizar resultados',
+        'Proceso de selección de individuos o grupos que representan la población en estudio, esencial para generalizar resultados.',
     },
     {
       termino: 'Observación Participante',
       significado:
-        'Método cualitativo donde el investigador se integra en el entorno de estudio para observar y comprender comportamientos',
+        'Método cualitativo donde el investigador se integra en el entorno de estudio para observar y comprender comportamientos.',
     },
     {
       termino: 'Paradigma',
       significado:
-        'Conjunto de creencias y métodos que orientan la investigación, como el positivismo en cuantitativa o interpretativo en cualitativa',
+        'Conjunto de creencias y métodos que orientan la investigación, como el positivismo en cuantitativa o interpretativo en cualitativa.',
     },
     {
       termino: 'Teoría Fundamentada',
       significado:
-        'Método cualitativo para desarrollar teorías a partir de los datos recolectados y analizados durante el proceso de investigación',
+        'Método cualitativo para desarrollar teorías a partir de los datos recolectados y analizados durante el proceso de investigación.',
     },
     {
       termino: 'Teoría Social',
       significado:
-        'Marco conceptual que busca explicar y entender fenómenos sociales, como el funcionalismo o el estructuralismo',
+        'Marco conceptual que busca explicar y entender fenómenos sociales, como el funcionalismo o el estructuralismo.',
     },
     {
       termino: 'Triangulación',
       significado:
-        'Uso de múltiples métodos o fuentes para asegurar la validez y confiabilidad en la investigación cualitativa y mixta',
+        'Uso de múltiples métodos o fuentes para asegurar la validez y confiabilidad en la investigación cualitativa y mixta.',
     },
     {
       termino: 'Validez',
       significado:
-        'Grado en que los resultados reflejan la realidad estudiada; importante para asegurar la precisión en ambas metodologías',
+        'Grado en que los resultados reflejan la realidad estudiada; importante para asegurar la precisión en ambas metodologías.',
     },
     {
       termino: 'Variables',
       significado:
-        'Factores medibles en investigación cuantitativa que pueden variar y afectar los resultados del estudio',
+        'Factores medibles en investigación cuantitativa que pueden variar y afectar los resultados del estudio.',
     },
   ],
   complementario: [
